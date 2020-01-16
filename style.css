@@ -1,0 +1,37 @@
+header {
+  border-bottom: 1px solid gray;
+  padding: 30px;
+
+}
+nav {
+  border-right:1px solid gray;
+  width:150px;
+  height:600px;
+  float:left;
+}
+nav ol {
+  list-style: none;
+}
+article {
+  padding:20px
+}
+h1 {
+  color:black;
+}
+h2 {
+  font-size: 25px;
+  color:black;
+}
+
+#columns{
+  column-width:400px;
+  column-gap:10px;
+}
+#columns figure {
+  display: inline-block;
+  margin: 0;
+
+}
+#columns figure img{
+  width:100%;
+}
